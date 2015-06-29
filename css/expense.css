@@ -52,14 +52,10 @@ abbr {
 footer {
   margin-top: 60px;
   font-size: 15px;
-  font-weight: bolder;
   color: #bbb;
 }
 footer p {
   margin: .6em 0;
-}
-footer p.copyright {
-  font-weight: normal;
 }
 
 .clearfix:after {
