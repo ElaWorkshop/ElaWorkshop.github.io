@@ -58,6 +58,9 @@ footer {
 footer p {
   margin: .6em 0;
 }
+footer p.copyright {
+  font-weight: normal;
+}
 
 .clearfix:after {
   content: ".";
