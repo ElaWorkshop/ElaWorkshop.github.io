@@ -1,3 +1,5 @@
 name: Ela Workshop
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+
+permalink: /:title.html
