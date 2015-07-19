@@ -43,10 +43,28 @@ abbr {
   border-bottom: 2px dashed #ddd;
   cursor: help;
 }
-.app .icon {
+
+/* From iTunes Connect */
+#expense-icon {
+  background-image: url('/images/expense.png');
+}
+.ios7-style-icon {
   height: 256px;
-  border-radius: 40px; /* height / 6.4 */
-  border: 1px solid #eee;
+  width: 256px;
+  margin: auto;
+  border-radius: 17.544%;
+  -webkit-mask-image: url('/images/ios7-icon.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.ios7-style-icon::after {
+  content: " ";
+  display: block;
+  background: url('/images/ios7-icon-border.svg');
+  height: 100%;
+  width: 100%;
+  opacity: 0.05;
 }
 
 footer {
