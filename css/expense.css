@@ -52,7 +52,7 @@ abbr {
   height: 256px;
   width: 256px;
   margin: auto;
-  border-radius: 17.544%;
+  border-radius: 22%;
   -webkit-mask-image: url('/images/ios7-icon.svg');
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
