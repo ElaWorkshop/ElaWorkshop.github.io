@@ -29,6 +29,31 @@ h1 .sub {
   margin: 20px auto 60px auto;
 }
 
+.app {
+  width: 300px;
+  margin: auto;
+}
+
+/* From iTunes Connect */
+.ios7-style-icon {
+  height: 256px;
+  width: 256px;
+  margin: auto;
+  border-radius: 22%;
+  -webkit-mask-image: url('/images/ios7-icon.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.ios7-style-icon::after {
+  content: " ";
+  display: block;
+  background: url('/images/ios7-icon-border.svg');
+  height: 100%;
+  width: 100%;
+  opacity: 0.05;
+}
+
 .screenshot {
   display: block;
   margin: 20px auto;
