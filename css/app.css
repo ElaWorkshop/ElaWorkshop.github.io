@@ -92,6 +92,7 @@ form.subscribe input[type="text"] {
   color: #666;
 }
 form.subscribe input[type="submit"] {
+  -webkit-appearance: none;
   width: 120px;
   border-radius: 3px;
   border: 0;
