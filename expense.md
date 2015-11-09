@@ -1,7 +1,7 @@
 ---
 layout: app
 title: Expense
-made: By <a href="https://twitter.com/xhacker" target="_blank">@xhacker</a> and <a href="https://twitter.com/aquarhead" target="_blank">@aquarhead
+made: By <a href="https://twitter.com/xhacker" target="_blank">@xhacker</a> and <a href="https://twitter.com/aquarhead" target="_blank">@aquarhead</a>
 ---
 
 <style type="text/css">

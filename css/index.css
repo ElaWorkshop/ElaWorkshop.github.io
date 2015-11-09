@@ -2,7 +2,7 @@ html {
   padding: 40px 0;
 }
 body {
-  font-family: sans-serif;
+  font-family: -apple-system, sans-serif;
   text-align: center;
 }
 a {
@@ -24,9 +24,47 @@ h1 .main {
 }
 h1 .sub {
   color: #aaa;
-  width: 400px;
+  width: 420px;
   font-size: 22px;
   margin: 20px auto 24px auto;
+}
+
+form.subscribe {
+  width: 300px;
+  border-radius: 20px;
+  background-color: #f3f3f3;
+  margin: 50px auto;
+  padding: 12px 20px 20px 20px;
+}
+form.subscribe label {
+  font-weight: bolder;
+  color: #444;
+}
+form.subscribe input[type="text"] {
+  width: 90%;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 5px;
+  border: 0;
+  padding: 10px 16px;
+  color: #666;
+}
+form.subscribe input[type="submit"] {
+  width: 120px;
+  border-radius: 3px;
+  border: 0;
+  background-color: #4C93DE;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  height: 36px;
+  cursor: pointer;
+}
+form.subscribe input[type="submit"]:hover {
+  background-color: #5CA3EE;
+}
+form.subscribe input[type="submit"]:active {
+  background-color: #2D7BCC;
 }
 
 footer {

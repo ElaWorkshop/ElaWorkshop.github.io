@@ -11,6 +11,13 @@
 <body>
     {{ content }}
 
+    <form class="subscribe" action="https://tinyletter.com/elaworkshop" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/elaworkshop', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <p><label for="tlemail">Be first to know what’s new:</label></p>
+        <p><input type="text" name="email" id="tlemail" placeholder="Enter your email..." autocorrect="off" spellcheck="false"></p>
+        <input type="hidden" value="1" name="embed">
+        <input type="submit" value="Subscribe">
+    </form>
+
     <footer>
         <p>{{ page.made }}</p>
         <p>© 2015 <a href="http://ela.build">Ela Workshop</a></p>
