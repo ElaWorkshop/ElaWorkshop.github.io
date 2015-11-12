@@ -34,6 +34,41 @@ h1 .sub {
   margin: auto;
 }
 
+.app-store {
+  display: inline-block;
+  margin: 10px auto 18px auto;
+  background: url('/images/app-store.svg') no-repeat;
+  background-size: 100% 100%;
+  width: 135px;
+  height: 40px;
+  color: transparent;
+}
+
+/* Device Frames */
+.iPhone-6 {
+  width: 435px;
+  height: 890px;
+  margin: auto;
+  background-image: url('/images/iphone-6.jpg');
+  background-size: 100% 100%;
+  position: relative;
+}
+.iPhone-6 .carousel {
+  width: 375px;
+  height: 667px;
+  position: absolute;
+  top: 110.5px;
+  left: 29.5px;
+}
+.iPhone-6 .carousel div {
+  width: 100%;
+  height: 100%;
+}
+.iPhone-6 .carousel div img {
+  width: 100%;
+  height: 100%;
+}
+
 /* From iTunes Connect */
 .ios7-style-icon {
   height: 256px;
