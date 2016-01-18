@@ -2,6 +2,7 @@
 layout: app
 title: One Clock
 made: Lovingly made by <a href="https://twitter.com/xhacker" target="_blank">@xhacker</a>
+copyright: © 2016 <a href="/">Ela Workshop</a>
 ---
 
 <h1>
