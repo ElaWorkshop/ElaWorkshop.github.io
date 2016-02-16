@@ -10,9 +10,62 @@
       width: 420px;
       margin: 20px auto 24px auto;
     }
+    ul {
+      padding: 0;
+      margin: 80px auto;
+      width: 420px;
+      max-width: 100%;
+      text-align: left;
+      list-style: none;
+    }
+    ul a {
+        display: block;
+        padding: 12px;
+        border-radius: 32px;
+    }
+    ul a:hover {
+        background-color: RGB(254, 252, 245);
+    }
+    ul .icon {
+      float: left;
+      margin-right: 32px;
+    }
+    ul h2 {
+      font-family: Futura;
+      color: #575757;
+      font-weight: normal;
+      font-size: 32px;
+      padding: 24px 0 0 0;
+      margin: 0;
+    }
+    ul p {
+      font-family: -apple-system, sans-serif;
+      color: #999;
+      font-weight: normal;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    #expense-icon {
+      background-image: url('/images/expense.png');
+    }
+
     @media only screen and (max-device-width: 480px) {
       h1 .sub {
         width: 300px;
+      }
+      ul {
+        margin: 32px auto;
+      }
+      ul .icon {
+        width: 100px;
+        height: 100px;
+        margin-right: 24px;
+      }
+      ul h2 {
+        padding-top: 10px;
+      }
+      ul p {
+        margin-top: 6px;
       }
     }
     </style>
@@ -25,9 +78,15 @@
         <p class="sub">Two craftsmen living in the middle-earth.</p>
     </h1>
 
-    <div>
-        <!-- <img class="icon" src="/images/icon.png"> -->
-    </div>
+    <ul>
+        <li>
+            <a class="clearfix" href="/expense">
+                <div id="expense-icon" class="icon ios7-style-icon-128"></div>
+                <h2>Expense</h2>
+                <p>Easy expense tracking</p>
+            </a>
+        </li>
+    </ul>
 
     <form class="subscribe" action="https://tinyletter.com/elaworkshop" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/elaworkshop', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
         <p><label for="tlemail">Be first to know what’s new:</label></p>
