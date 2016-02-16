@@ -17,7 +17,7 @@ h1 {
   font-weight: normal;
 }
 h1 .main {
-  font-family: Futura;
+  font-family: Futura, sans-serif;
   color: #575757;
   font-size: 44px;
   margin: 20px auto 5px auto;
@@ -116,7 +116,7 @@ h1 .sub {
 .coming {
   margin-top: 60px;
   color: #575757;
-  font-family: Futura;
+  font-family: Futura, sans-serif;
   font-size: 26px;
   text-transform: uppercase;
 }
