@@ -1,5 +1,3 @@
 name: Ela Workshop
-markdown: redcarpet
-highlighter: pygments
 
 permalink: /:title.html
