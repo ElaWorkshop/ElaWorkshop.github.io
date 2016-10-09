@@ -14,4 +14,4 @@ copyright: © 2016 <a href="/">Ela Workshop</a>
 
 <img class="screenshot" src="/images/oneclock/screenshot-dark.png" alt="Screenshot Dark" width="415">
 
-<p class="coming">Coming soon<sup>TM</sup></p>
+<p class="coming">Coming soon™</p>
