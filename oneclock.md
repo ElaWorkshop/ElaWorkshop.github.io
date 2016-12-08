@@ -1,7 +1,7 @@
 ---
 layout: app
 title: One Clock
-made: Lovingly made by <a href="https://twitter.com/xhacker" target="_blank">@xhacker</a>, <a href="https://twitter.com/aquarhead" target="_blank">@aquarhead</a> and <a href="https://twitter.com/Ceecirno" target="_blank">@Cee</a>
+made: Lovingly made by <a href="https://twitter.com/xhacker" target="_blank">@xhacker</a>, <a href="https://twitter.com/aquarhead" target="_blank">@aquarhead</a>, and <a href="https://twitter.com/Ceecirno" target="_blank">@Cee</a>
 copyright: © 2016 <a href="/">Ela Workshop</a>
 ---
 
