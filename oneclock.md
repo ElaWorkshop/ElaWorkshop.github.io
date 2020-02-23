@@ -14,4 +14,4 @@ copyright: © 2016 <a href="/">Ela Workshop</a>
 
 <img class="screenshot" src="/images/oneclock/screenshot-dark.png" alt="Screenshot Dark" width="415">
 
-<p class="coming"><a href="https://rink.hockeyapp.net/apps/e718f0d66a5e4070897854315657b48a">Coming soon™</a></p>
+<p class="coming"><a href="https://d.pr/f/ATkAyU">Coming soon™</a></p>
