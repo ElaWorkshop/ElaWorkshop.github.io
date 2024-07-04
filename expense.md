@@ -2,7 +2,7 @@
 layout: app
 title: Expense
 made: By <a href="https://twitter.com/xhacker" target="_blank">@xhacker</a> and <a href="https://twitter.com/aquarhead" target="_blank">@aquarhead</a>
-copyright: © <a href="/">Ela Workshop</a> · <a href="mailto:expense@ela.build">Contact Us</a> · <a href="/images/expense/expense-press-kit.zip">Press Kit</a>
+copyright: © <a href="/">Ela Workshop</a> · <a href="mailto:expense@xhacker.im">Contact Us</a> · <a href="/images/expense/expense-press-kit.zip">Press Kit</a>
 ---
 
 <style type="text/css">
